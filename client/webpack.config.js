@@ -23,7 +23,7 @@ module.exports = () => {
       // ** webpack plugin that generates html and injects bundles **
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Just Another Text Editor'
+        title: 'J.A.T.E.'
       }),
 
       // ** injects custom service worker **
