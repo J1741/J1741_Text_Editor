@@ -9,10 +9,12 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 module.exports = () => {
   return {
     mode: 'development',
+    // ** entry point for files **
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js'
     },
+    // ** output for bundles **
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
@@ -24,7 +26,7 @@ module.exports = () => {
         title: 'Just Another Text Editor'
       }),
 
-      // ** Injects custom service worker **
+      // ** injects custom service worker **
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
