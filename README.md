@@ -7,7 +7,7 @@ Just Another Text Editor or "J.A.T.E." is a progressive web application or "PWA"
 Technologies used by the application include ExpressJS, Webpack, and IndexedDB
 
 The deployed application can be accessed here:
-(TO BE ADDED)
+https://boiling-bastion-37151.herokuapp.com
 
 ## Features
 
